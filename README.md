@@ -1,5 +1,7 @@
 # REST API starter
 
+hi :)
+
 This is a Python Flask REST API, serving a simple frontend for use in LBG programs
 
 ## Installation
