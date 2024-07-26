@@ -137,6 +137,7 @@ data.db
 # pycharm
 .idea/
 
-# GCP stuff
+# Project 3 stuff
 google-cloud-cli-387.0.0-linux-x86_64.tar.gz
 google-cloud-sdk/
+kubectl.sha256

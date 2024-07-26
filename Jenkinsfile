@@ -4,6 +4,10 @@ pipeline {
         GCR_CREDENTIALS_ID = 'jenkins-id-project3' // The ID you provided in Jenkins credentials
         IMAGE_NAME = 'test-image-hezekiah'
         GCR_URL = 'europe-west1-docker.pkg.dev/lbg-mea-20/hezekiah-repo-project3'
+	PROJECT_ID = 'europe-west1-docker.pkg.dev/lbg-mea-20/hezekiah-repo-project3'
+        CLUSTER_NAME = 'group4-k8s-cluster'
+        LOCATION = 'europe-west2-c'
+        CREDENTIALS_ID = 'lbg-mea-20'
     }
     stages {
         stage('Build and Push to GCR') {
